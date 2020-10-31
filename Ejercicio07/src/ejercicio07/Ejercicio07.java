@@ -3,22 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio02;
+package ejercicio07;
 
 /**
  *
  * @author Usuario iTC
  */
-public class Ejercicio02 {
+public class Ejercicio07 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double resultado = Math.pow(10,2)+10;
-        System.out.println(resultado);
-        
+        boolean resultado= (Math.sqrt(81)+9)/3==9 || (10>1);
+        boolean resultado2= 100/25 + Math.sqrt(100)>=14;
+        boolean resultadoFinal= resultado && resultado2;
+        System.out.println(resultadoFinal);
     }
     
 }
